@@ -1,0 +1,14 @@
+Output expected is a presentation with a clear design to achieve the below. If more details are required, ask him to connect with me directly. 
+
+ 
+
+Case Study: Complaint Routing Classifier for Patient Support Centers
+
+Business Context:
+Patient support centers receive high volumes of free-text messages through portals, chat systems, and email. These messages span billing disputes, clinical questions, scheduling requests, and technical issues with the digital platform. Manual triage slows response times and creates inconsistency across agents. A reliable automated classifier enables faster routing, reduced backlog, and more predictable service operations.
+
+Problem Understanding:
+The task is to build a text classification system that assigns each incoming patient message to one of several operational categories: billing, clinical advice, scheduling, or technical support. Inputs are short, ambiguous, and often incomplete. Patients use non-standard phrasing, mix multiple concerns, and provide little medical context. The model must maintain high precision for clinical messages to avoid misrouting safety-relevant inquiries. The system must sustain near-real-time inference, support incremental retraining as patterns change, handle class imbalance, and provide confidence outputs for cases requiring human review. 
+
+Example Text: 
+“I’m trying to reschedule my appointment because the app won’t load, and I also need to check a charge that looks wrong on my bill.”
